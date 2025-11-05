@@ -28,7 +28,7 @@
 
 ## Corregir bug
 1. Crear la rama `bugfix/v1.0.1` desde `release/v1.0`
-2. Reemplazar la operación en el atributo `FinalPrice`por `Price` * `1 + Tax`
+2. Reemplazar la operación en el atributo `FinalPrice`por `Price` * (`1 + Tax`)
 3. Realizar commit
 4. Actualizar el archivo `version` con v1.0.1
 5. Realizar commit y subir los cambios a la rama remota
